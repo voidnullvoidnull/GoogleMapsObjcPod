@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@import CoreLocation;
+@import GoogleMaps;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CLLocationManagerDelegate>
 
 
 @end
